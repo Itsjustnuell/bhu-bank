@@ -12,7 +12,7 @@ class ChildrenAccount(Account):
         return False
     
     def withdraw(self, amount):
-        return "Cannot withdraw. This is a children's account"
+        return "Cannot withdraw from this account. This is a children's account"
     
     def __str__(self):
         return f"Children {super().__str__()}"
