@@ -6,10 +6,10 @@ class CurrentAccount(Account):
 
     def deposit(self, amount):
         if super().deposit(amount):
-            return "Deposited successfully"
+            return "Deposited successfully!"
     def withdraw(self, amount):
         if super().withdraw(amount):
-            return "Withdrawn successfully"
+            return "Withdrawn successfully!"
         return "Insufficient funds!"
 
     def __str__(self):
